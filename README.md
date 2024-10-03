@@ -16,4 +16,5 @@ streamlit run app.py
 ## Authenticate with your Google account:
 Enter your email address
 NOTE
-User has to respond by yes or no through his google calendar . While responding "yes" might not be necessary responding "no" is important To remove slots that have been responded with "no" we have to run this python script in the terminal as follows python del.py On doing this the details of the user who responded no will be stored in a csv file. The event will be deleted from organization's calendar
+User has to respond by yes or no through his google calendar . While responding "yes" might not be necessary responding "no" is important To remove slots that have been responded with "no" we have to run this python script in the terminal as follows python del.py On doing this the details of the user who responded no will be stored in a csv file. The event will be deleted from organization's calendar and can be rescheduled
+
