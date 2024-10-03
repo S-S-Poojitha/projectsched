@@ -1,6 +1,6 @@
 ## Google Calendar Events Viewer & Scheduler
 This agent schedules events based on the availability of user and organization. After identifying a free slot it schedules an event and sends a mail to the user with details regarding date,timmings,meeting link of the event scheduled. Now user has to respond through his calendar by either selecting "Yes"/"No" , here there is no observable change when pressed "Yes" but in case of "No" the event will be deleted from organization calendar thus rendering that particular slot free and this process takes place on running the script del.py.
-## Requsites
+## Requisites
 Organization should two factor authentication enabled and their password and mail has to replaced in the placeholders of app.py and try.py
 From Google Cloud Project host a project and download credentials as "credentials.json" and push it into your repository for this functionality to work
 ## Usage
